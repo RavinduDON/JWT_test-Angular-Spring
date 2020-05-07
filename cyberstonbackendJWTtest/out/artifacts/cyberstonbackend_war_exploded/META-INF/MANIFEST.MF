@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: User
+Build-Jdk: 1.8.0_231
+Implementation-Title: cyberston
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: lk.cyberston.v1
+Main-Class: ${start-class}
+
