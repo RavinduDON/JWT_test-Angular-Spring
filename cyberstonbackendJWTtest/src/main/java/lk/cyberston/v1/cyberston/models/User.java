@@ -87,4 +87,20 @@ public class User {
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
     }
+
+    public boolean isActive() {
+        return isActive;
+    }
+
+    public void setIsActive(boolean active) {
+        isActive = active;
+    }
+
+    public VerificationToken getVerificationToken() {
+        return verificationToken;
+    }
+
+    public void setVerificationToken(VerificationToken verificationToken) {
+        this.verificationToken = verificationToken;
+    }
 }
