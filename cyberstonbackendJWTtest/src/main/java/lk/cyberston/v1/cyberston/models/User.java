@@ -27,6 +27,12 @@ public class User {
     @NotBlank
     @Size(max = 120)
     private String password;
+
+    private boolean isActive;
+
+    @OneToOne(mappedBy = "user",cascade = CascadeType.ALL)
+    private VerificationToken verificationToken;
+
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(	name = "user_roles",
             joinColumns = @JoinColumn(name = "user_id"),
